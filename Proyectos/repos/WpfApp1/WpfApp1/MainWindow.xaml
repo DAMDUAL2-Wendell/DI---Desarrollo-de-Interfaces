@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC3C2C2">
+        <Label Content="MÓDULO: DESARROLLO DE INTERFACES&#xD;&#xA;" HorizontalAlignment="Stretch" Margin="0,94,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Background="Transparent" Width="468" Height="44" HorizontalContentAlignment="Center"/>
+        <Image HorizontalAlignment="Stretch" Height="160" Margin="0,217,0,0" VerticalAlignment="Stretch" Width="278" Source="/logo-cifp-carballeira.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Visibility="Visible"/>
+        <Label Content="Unidad 1. Confección de interfaces de usuario&#xD;&#xA;" HorizontalAlignment="Stretch" Margin="0,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.499,0.493" FontFamily="Viner Hand ITC" FontSize="17" FontWeight="Normal" Width="363" Height="40" HorizontalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,59,0,0" TextWrapping="Wrap" Text="CIFP A Carballeira - Marcos Valcárcel" VerticalAlignment="Stretch" Foreground="#FF0C8A08"/>
+        <Rectangle HorizontalAlignment="Stretch" Height="23" Margin="0,55,0,0" Stroke="Black" VerticalAlignment="Top" Width="202"/>
+    </Grid>
+</Window>
